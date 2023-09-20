@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bloquePrincipal {
+    border: 4px solid black;
+    width: 30vw;
+    height: 25vh;
+    margin: 10vh 0 0 20vw;
+    padding: 5vh 5vw;
+}
+
+.bloqueInformacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nombreUsuario {
+    background-color: chartreuse;
+    flex: 3;
+}
+
+.infoLikes {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    flex: 2;
+}
+
+.cantidadLike {
+    font-size: large;
+}
+
+.botonLike {
+    font-size: large;
+    padding: 0 2vw;
+}
+
