@@ -84,14 +84,14 @@
 .bloquePrincipalDos {
     display: flex;
     flex-direction: column;
-    margin: 0 20vw 2vh 20vw;
-    height: 92vh;
+    margin: 0 20vw 5vh 20vw;
+    height: 100%;
 }
 
 .bloquePrincipalDos h1 {
     text-align: center;
     font-size: xx-large;
-    padding: 2vh 0;
+    padding: 2.5vh 0;
 }  
 
 .bloqueGeneral {
@@ -107,7 +107,7 @@
     align-items: center;
     border: 4px solid black;
     width: 15vw;
-    min-height: 40vh;
+    min-height: 45vh;
     padding: .5vh .5vw 2vh .5vw;
 }
 
@@ -116,11 +116,12 @@
 }
 
 .bloqueAvatar a { 
-    font-size: large;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 .bloqueAvatar span {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
@@ -134,7 +135,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10.9vw;
+    justify-content: space-between;
 }
 
 .infoLikesDos {
@@ -143,8 +144,17 @@
     gap: 3vw;
 }
 
+.infoLikesDos span {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.infoLikesDos button {
+    font-weight: bold;
+}
+
 .descripcionUsuarioDos {
-    font-size: larger;
+    font-size: x-large;
 }
 
 .bloqueDetalle {
